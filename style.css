@@ -28,6 +28,20 @@
     color: #252B42;
 }
 
+#nav-fixed {
+    background-image: transparent ! important;
+    padding: 31px 0 !important;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.nav-active{
+    background-color: #FFFFFF !important;
+    color:#737373 ;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+
 .navbar-brand:hover {
     color: #252B42 !important;
 }
